@@ -1,0 +1,112 @@
+.container{
+    border: 2px solid brown;
+    height: 500px;
+}
+.row{
+    display: flex;
+    border: 2px solid brown;
+    border-radius: 20px;
+    margin: 12px;
+}
+.header{
+    height: 200px;
+    width: 60%;
+    margin-left: 20%;
+}
+.main{
+    min-height: 250px;
+    width: 80%;
+    margin-left: 10%;
+}
+.col{
+    border-radius: 20px;
+}
+.user{
+    flex: 8;
+}
+.press{
+    flex: 2;
+}
+.row2{
+    display: flex;
+    border-radius: 20px;
+    height: 30%;
+    margin: 2px;
+}
+.row3{
+    display: flex;
+    border-radius: 20px;
+    height: 40%;
+    margin: 10px;
+}
+.col2{
+    border-radius: 20px;
+    flex: 5;
+}
+label{
+    margin-left: 5%;
+}
+input{
+    margin-left: 5%;
+    border-radius:4px;
+}
+select{
+    width: 60%;
+    margin-left: 5%;
+    border-radius:4px;
+}
+.adres{
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 80%;
+    height: 30%;
+}
+.row-adres{
+    display: block;
+}
+.label-adres{
+    margin-left: 2%;
+}
+button{
+    width: 100%;
+    height: 50%;
+    border-radius: 90%;
+}
+.ekle{
+    margin-top: 30%;
+}
+.temizle{
+    margin-top: 8%;
+}
+table{
+    border: 1px dotted brown;
+    border-radius: 20px;
+    width: 100%;
+}
+th {
+    border: 1px solid black;
+    width: auto; 
+    height: auto;
+}
+tr, td {
+    border: 1px solid black;
+    width: auto; 
+    height: auto;
+}
+.id-t{
+    width: 5%;
+}
+.adres-t{
+    width: 30%;
+}
+.işlemler-t{
+    width: 10%;
+}
+.table-button{
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+

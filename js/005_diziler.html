@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Diziler</title>
+</head>
+<body>
+    <h1>Diziler</h1>
+    <script>
+        /**
+         * Dizi nasıl tanımlanır
+        */
+        var marka = ["bmw", "mercedes", "audi", "opel"];
+        var model = new Array("e200", "a8", "mokka");
+        console.log(marka);
+        console.log("Modeller...:", model);
+
+        /**
+         * Dizilerde işlemler, ekleme, silme, araya ekleme, okuma vs.
+        */
+
+        model.push("a6"); // Sona ekler
+        console.log("Modeller...: ", model);
+        model.unshift("a3"); // Başa ekler
+        console.log("Modeller...: ", model);
+        model.pop(); // Sondan siler
+        console.log("Modeller...:(Pop)", model);
+        model.shift(); // Baştan siler
+        console.log("Modeller...: ", model);
+
+    </script>
+</body>
+</html>
