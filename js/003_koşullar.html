@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Koşullar</title>
+</head>
+<body>
+    <h1>JavaScript Koşul Kullanımı</h1>
+    <script>
+        var secim = prompt(
+            "1- Müşteri Ekle \n"+
+            "2- Müşteri Ara \n"+
+            "3- Müşteri Listesi \n"+
+            "0- ÇIKIŞ"
+        );
+        if (secim == 1) {
+           alert("Müşteri başarı ile eklendi.");
+        }else if (secim == 2) {
+            
+        }else{
+
+        }
+
+        switch (secim) {
+            case "1": console.log("Müşteri Eklendi"); break;
+            case "2": console.log("Müşteri Bulundu"); break;
+            default: console.log("Haydi Yoluna");
+        }
+    </script>
+</body>
+</html>

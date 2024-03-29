@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+<body>
+    <script>
+        console.log(localStorage);
+        localStorage.setItem('token','lsdfdasd');
+        localStorage.setItem('userName','Can');
+        console.log(localStorage);
+
+        console.log('token...: ', localStorage.getItem('token'));
+
+        // localStorage.clear(); // tüm kayıtları siler
+        localStorage.removeItem('userName');
+
+    </script>
+</body>
+</html>

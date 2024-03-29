@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="proje_002.css">
+</head>
+<body>
+    <form>
+    <div class="container">
+        <div class=" row header">
+            <div class="col user">
+                <div class="row2">
+                    <div class="col2">
+                        <label for="ad">id</label><br>
+                        <input type="text" name="id" id="ad">
+                    </div>
+                    <div class="col2">
+                        <label for="ad">telefon</label><br>
+                        <input type="text" name="telefon" id="ad">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="col2">
+                        <label for="ad">ad soyad</label><br>
+                        <input type="text" name="ad soyad" id="ad">
+                    </div>
+                    <div class="col2">
+                        <label for="ad">meslek</label><br>
+                        <select>
+                        <option value="mühendis">Mühendis</option>
+                        <option value="doktor">Doktor</option>
+                        <option value="öğretmen">Öğretmen</option>
+                        <option value="işçi">İşçi</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="row2 row-adres">
+                    <label class="label-adres" for="ad">adres</label><br>
+                    <input class="adres" type="text" name="adres" id="ad">
+                </div>
+            </div>
+            <div class="col press">
+                <form>
+                <div class="row3">
+                    <button onclick="ekle()" class="ekle" type="submit">Ekle</button>
+                </div>
+                <div class="row3">
+                    <button class="temizle" type="reset">Temizle</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="row main">
+            <table border="2" width="100%" id="root">
+                <thead>
+                    <tr>
+                        <th accesskey="1">id</th>
+                        <th accesskey="2">ad soyad</th>
+                        <th accesskey="3">telefon</th>
+                        <th accesskey="4">meslek</th>
+                        <th accesskey="5">adres</th>
+                        <th accesskey="1">islemler</th>
+                        </tr>
+                    </thead>
+                <tbody id="root">
+    
+    
+                </tbody>
+        </table>
+        </div>
+    </div>
+    </form>
+    <script>
+        function ekle() {
+            const id = document.querySelector("input[name='id']").value;
+            const adSoyad = document.querySelector("input[name='ad soyad']").value;
+            const telefon = document.querySelector("input[name='telefon']").value;
+            const meslek = document.querySelector("select").value;
+            const adres = document.querySelector("input[name='adres']").value;
+
+            // Yeni bir satır oluştur
+            const newRow = document.createElement("tr");
+
+            // Satırın içeriğini oluştur
+            newRow.innerHTML = `
+                <td>${id}</td>
+                <td>${adSoyad}</td>
+                <td>${telefon}</td>
+                <td>${meslek}</td>
+                <td>${adres}</td>
+                <td>
+                <button class="table-button" type="button">D</button>
+                <button onclick="ekle()" class="table-button" type="button">S</button>
+                </td>
+                `;
+
+            // Tabloya yeni satırı ekle
+            const tableBody = document.getElementById("root");
+            tableBody.appendChild(newRow);
+            }
+            function temizle(){
+                document.getElementById("id").value = "";
+                document.getElementById("telefon").value = "";
+                var adSoyad = document.getElementById("adsoyad").value = "";;
+                var meslekSelect = document.getElementById("meslek") = "";;
+                var meslek = meslekSelect.options[meslekSelect.selectedIndex].value= "";;
+                var adres = document.getElementById("adres").value = "";;
+             }
+    </script>
+</body>
+</html>
