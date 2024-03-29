@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black; /* Border kalınlığı artırıldı */
+    padding: 8px;
+    text-align: center;
+}
+caption{
+    border: 2px solid black; /* Border kalınlığı artırıldı */
+    padding: 8px;
+    text-align: center;
+    background-color: aqua;
+}
+.tek{
+    background-color: darkgreen;
+}
+.çift{
+    background-color: darkblue;
+}

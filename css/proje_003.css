@@ -1,0 +1,70 @@
+.row{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    min-height: 50px;
+}
+.main{
+    min-height: 450px;
+}
+.col{
+    border: 1px solid black;
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    flex: 4;
+}
+.third{
+    min-height: 150px;
+}
+.fourth{
+    min-height: 350px;
+}
+.margin-g{
+    margin: 10px;
+}
+.margin-t{
+    margin-top: 10px;
+}
+.fifth{
+    min-height: 250px;
+}
+input{
+    margin-left: 5%;
+    border-radius: 20px;
+}
+.input-1{
+    height: 20px;
+    width: 70px;
+}
+.arrange{
+    text-align: left;
+}
+.pc{
+    width: 50%;
+    margin: 5px;
+}
+.sixt{
+    min-height: 50px;
+}
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+}
+.t1{
+    background-color: blueviolet;
+    color: darkmagenta;
+}
+.t2{
+    color: orange;
+}
+.t3{
+    color: green;
+}

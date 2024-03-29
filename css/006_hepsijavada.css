@@ -1,0 +1,40 @@
+.row{
+    background-color: cadetblue;
+    margin-top: 10px;
+    display: flex;
+}
+.header{
+    height: 10%;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    height: 300px;
+}
+.row2{
+    background-color: burlywood;
+    display: flex;
+    margin-top: 10px;
+    height: 130px;
+}
+.col-top{
+    flex-direction: row;
+    display: flex;
+    height: 10%;
+}
+.col-2{
+    flex: 2;
+}
+.col-8{
+    flex: 8;
+}
+.col{
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    background-color: darkgreen;
+    flex: 4;
+}
+img{
+    width: 58px;
+}

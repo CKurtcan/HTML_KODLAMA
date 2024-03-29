@@ -1,0 +1,65 @@
+.row{
+    display: flex;
+    border: 2px solid rgb(216, 149, 23);
+    border-radius: 10px;
+    margin: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 19px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+.box1{
+    position: relative;
+}
+.row1{
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.row2{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+label{
+    position: absolute;
+    backdrop-filter: blur(4px) brightness(90%);
+    color: white;
+    border-radius: 20px;
+    left: 8%;
+    top: 80%;
+}
+.t{
+    display: flex;
+    position: absolute;
+    border: 1px solid black;
+    height: 15%;
+    border-radius: 8%;
+    top: 10%;
+}
+.t1{
+    background-color: gray;
+    justify-content: right;
+    border-right: transparent;
+    width: 15%;
+    left: 2%;
+}
+.t2{
+    text-align: left;
+    border-radius: 5%;
+    border-left: transparent;
+    width: 50%;
+    left: 18%;
+}

@@ -1,0 +1,38 @@
+.row{
+    background-color: cadetblue;
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    flex: 6px;
+    background-color: chocolate;
+    margin: 5px;
+}
+.col-2{
+    flex: 2;
+}
+.col-4{
+    flex: 4;
+}
+.col-6{
+    flex: 6;
+}
+.col-8{
+    flex: 8;
+}
+
+.form-element{
+    background-color: darkgoldenrod;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+}
